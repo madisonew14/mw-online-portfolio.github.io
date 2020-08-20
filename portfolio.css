@@ -2,6 +2,8 @@
 
 html {
    background-color: #fff;
+   margin-left: 3em;
+   margin-right: 3em;
    
 }
 
@@ -46,7 +48,7 @@ li a:hover {
 
 main {
    background-color: #fff;
-   width: 80%;
+   width: 100%;
    margin: auto;
 }
 
