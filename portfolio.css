@@ -1,0 +1,309 @@
+/* FP Website */
+
+html {
+   background-color: #fff;
+}
+
+/* NAV STYLES */
+
+header {
+   display:inline;
+   margin:1em;
+}
+
+ul {
+   list-style-type: none;
+   overflow: hidden;
+   padding-top: 1.6em;
+}
+
+li {
+   float: right;
+}
+
+li a {
+   display: block;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+li a:hover {
+   font-weight: 100;
+}
+
+.active {
+   font-weight: 100;
+}
+
+/* END NAV STYLES */
+
+/* MAIN CONTENT STYLES */
+
+main {
+   background-color: #fff;
+   width: 100%;
+   margin: auto;
+}
+
+body {
+   font-family: sans-serif;
+   color: grey;
+   font-size: 1em;
+}
+
+
+a {
+   font-family: sans-serif;
+   color: #000;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight:bold;
+   padding-bottom: 1em;
+}
+
+a:hover {
+   font-weight:100;
+}
+
+.active {
+   font-weight:100;
+}
+
+p {
+   font-size:1em;
+}
+
+p.disclaimer {
+   text-align:center;
+}
+
+p.faq, p.rates, p.about {
+   text-align: left;
+}
+
+strong {
+   color: #000;
+}
+
+section {
+   padding: 0.75em;
+   text-align: center;
+}
+
+img.faq, img.rates,img.thomas  {
+   float:left;
+   padding-right: 2em;
+   width: 40%;
+}
+
+ul {
+   text-align:left;
+}
+
+h1 a {
+   text-decoration: none;
+   color: black;
+   float: left;
+   padding-left: 0.5em;
+   padding-top: 0.5em;
+}
+
+h1 a:hover {
+   font-weight:400;
+}
+
+h2 {
+   color: black;
+   text-transform: uppercase;
+}
+
+
+img {
+   border: 1px solid #fff;
+}
+
+figure {
+   display: inline-block;
+   margin: .25%;
+}
+
+div.gallery {
+   text-align:center;
+}
+
+.gallery {
+   padding-top:2em;
+}
+
+figcaption {
+   color:#fff;
+}
+
+.fullwidth {
+   width: 100%;
+   border-style: none;
+}
+
+/* END MAIN CONTENT STYLES */
+
+/* START FOOTER CONTENT STYLES */
+
+footer {
+   padding: 1em;
+   background-color: #fff;
+   color: #000;
+   text-align: center;
+   clear: both;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+footer a {
+   color: #000;
+   text-decoration:none;
+}
+
+footer a:hover {
+   font-weight: 100;
+}
+
+/* END FOOTER CONTENT STYLES */
+
+
+/* START EMBED STYLES */
+
+.embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 90%;
+}
+
+.embed-container iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+/* HIDE AGENDA view CALENDAR */
+
+.embed-container.agenda-view {
+   display: none;
+   
+}
+
+/* CALENDAR RULES for MOBILE */
+
+@media all and (max-width: 860px) {
+   
+   .embed-container.agenda-view {
+      display:block;
+   }
+   
+   div.embed-container.month-view {
+      display:none;
+   }
+   
+}
+
+/* END embed STYLES */
+
+
+/* MOBILE + TABLET STYLES */
+
+@media all and (max-width: 1039px) {
+   main {
+      background-color: white;
+      width: 100%;
+      margin: auto;
+   }
+   section {
+      float: none;
+      text-align: left;
+   }
+   
+   aside {
+      float: none;
+      width: 90%
+   }
+   
+   ul {
+      list-style-type: none;
+      overflow: hidden;
+      display: inline-block;
+      padding: 0.75em;
+   }
+   
+   li {
+      float:right;
+   }
+   
+   li a {
+      display: block;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      color: black;
+      text-decoration: none;
+   }
+   
+   img {
+      display: inline-block;
+   }
+   
+}
+
+@media all and (max-width: 851px) {
+   main {
+      background-color: white;
+      width: 100%;
+      margin: auto;
+   }
+   section {
+      float: none;
+      text-align: left;
+      padding-left: 1.3em;
+      
+   }
+   
+   aside {
+      float: none;
+      width: 100%
+   }
+   
+   ul {
+      list-style-type: none;
+      overflow: hidden;
+      display: inline-block;
+      padding: 0.75em;
+   }
+   
+   li {
+      float:left;
+   }
+   
+   li a {
+      display: block;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      color: black;
+      text-decoration: none;
+   }
+   
+   img.faq, img.rates,img.thomas  {
+      float:none;
+      padding-right: 2em;
+      width: 70%;
+   }
+   
+   p.faq, p.rates, p.about {
+      text-align: inherit;
+   }
+   
+}
