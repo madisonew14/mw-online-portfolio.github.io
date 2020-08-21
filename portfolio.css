@@ -38,12 +38,12 @@ li a {
 
 li a:hover {
    font-weight: 500;
-   color: #D6D3D3;
+   color: #979797;
 }
 
 .active {
    font-weight: 500;
-   color: #D6D3D3;
+   color: #979797;
 
 }
 
@@ -184,7 +184,7 @@ footer a {
 
 footer a:hover {
    font-weight: 100;
-   color: #D6D3D3;
+   color: #979797;
 
 }
 
