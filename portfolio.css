@@ -37,11 +37,11 @@ li a {
 }
 
 li a:hover {
-   font-weight: 100;
+   font-weight: 500;
 }
 
 .active {
-   font-weight: 100;
+   font-weight: 500;
 }
 
 /* END NAV STYLES */
