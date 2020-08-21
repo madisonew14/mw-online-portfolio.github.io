@@ -184,6 +184,8 @@ footer a {
 
 footer a:hover {
    font-weight: 100;
+   color: #D6D3D3;
+
 }
 
 /* END FOOTER CONTENT STYLES */
