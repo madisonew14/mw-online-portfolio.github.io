@@ -172,6 +172,8 @@ footer {
 footer a {
    color: #000;
    text-decoration:none;
+   font-family: 'Fredoka One', cursive;
+
 }
 
 footer a:hover {
