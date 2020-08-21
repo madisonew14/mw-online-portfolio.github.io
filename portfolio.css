@@ -166,7 +166,8 @@ footer {
    text-align: center;
    clear: both;
    text-transform: uppercase;
-   font-weight: bold;
+   font-family: 'Fredoka One', cursive;
+
 }
 
 footer a {
