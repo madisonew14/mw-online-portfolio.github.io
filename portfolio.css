@@ -38,10 +38,13 @@ li a {
 
 li a:hover {
    font-weight: 500;
+   color: #D6D3D3;
 }
 
 .active {
    font-weight: 500;
+   color: #D6D3D3;
+
 }
 
 /* END NAV STYLES */
