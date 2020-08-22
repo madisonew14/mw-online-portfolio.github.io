@@ -243,19 +243,8 @@ footer a:hover {
 /* MOBILE + TABLET STYLES */
 
 @media screen and (max-width: 480px) {
-   main {
-      background-color: white;
+   body {
       width: 100%;
-      margin: auto;
-   }
-   section {
-      float: none;
-      text-align: left;
-   }
-   
-   aside {
-      float: none;
-      width: 90%
    }
    
    ul {
