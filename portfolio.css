@@ -205,6 +205,10 @@ footer a:hover {
       width: 100%;
    }
    
+   h1 {
+      text-align: center;
+   }
+   
    h2 {
       display: block;
       text-align: center;
