@@ -205,11 +205,17 @@ footer a:hover {
       width: 100%;
    }
    
+   h2 {
+      display: block;
+      text-align: center;
+   
    ul {
       list-style-type: none;
       overflow: hidden;
-      display: inline-block;
+      display: block;
       padding: 0.75em;
+      width: 70%;
+      margin: 0;
    }
    
    li {
@@ -227,6 +233,9 @@ footer a:hover {
    #headshot {
       margin-top: 1.5em;
       margin-bottom: 1.5em;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
       float: none;
    }
    
