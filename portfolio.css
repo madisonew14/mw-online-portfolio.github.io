@@ -131,6 +131,16 @@ ul {
    text-align:left;
 }
 
+.ApprentiList {
+   padding-top:none;
+}
+
+.bullets {
+    float: left;
+    line-height: 1.8;
+    list-style-type: circle;
+}
+
 h1 a {
    text-decoration: none;
    color: black;
