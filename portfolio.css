@@ -167,6 +167,10 @@ h3 {
    color: black;
 }
 
+h4 {
+   text-transform: uppercase;
+}
+
 /* END MAIN CONTENT STYLES */
 
 /* START FOOTER CONTENT STYLES */
