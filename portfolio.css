@@ -49,6 +49,12 @@ li a:hover {
     justify-content:center;
 }
 
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .active {
    font-weight: 500;
    color: #979797;
@@ -127,6 +133,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 ul {
    text-align:left;
 }
