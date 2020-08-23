@@ -120,11 +120,14 @@ section {
    justify-content: center;
 }
 
-img.faq, img.rates,img.thomas  {
-   float:left;
-   padding-right: 2em;
-   width: 40%;
+.thumbnail {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 ul {
    text-align:left;
