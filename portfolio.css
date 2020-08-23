@@ -41,7 +41,7 @@ li a:hover {
    color: #979797;
 }
 
-a.project {
+.project {
     text-align: center;
     font-family: 'Fredoka One', cursive;
     text-transform: uppercase;
