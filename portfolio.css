@@ -155,33 +155,6 @@ h2 {
    text-transform: uppercase;
 }
 
-
-img {
-   border: 1px solid #fff;
-}
-
-figure {
-   display: inline-block;
-   margin: .25%;
-}
-
-div.gallery {
-   text-align:center;
-}
-
-.gallery {
-   padding-top:2em;
-}
-
-figcaption {
-   color:#fff;
-}
-
-.fullwidth {
-   width: 100%;
-   border-style: none;
-}
-
 /* END MAIN CONTENT STYLES */
 
 /* START FOOTER CONTENT STYLES */
