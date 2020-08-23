@@ -92,14 +92,6 @@ p {
    line-height: 1.6;
 }
 
-p.disclaimer {
-   text-align:center;
-}
-
-p.faq, p.rates, p.about {
-   text-align: left;
-}
-
 strong {
    color: #000;
 }
