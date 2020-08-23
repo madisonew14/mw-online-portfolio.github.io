@@ -181,6 +181,15 @@ h4 {
    line-height: 1.6;
 }
 
+h5 {
+
+figcaption {
+    font-size: small;
+    padding-bottom: 1.7em;
+    text-align: center;
+    line-height: 1.5;
+}
+
 /* END MAIN CONTENT STYLES */
 
 /* START FOOTER CONTENT STYLES */
