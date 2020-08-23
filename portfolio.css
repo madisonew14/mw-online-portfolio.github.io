@@ -159,6 +159,10 @@ h2 {
    text-transform: uppercase;
 }
 
+h3 {
+   color: black;
+}
+
 /* END MAIN CONTENT STYLES */
 
 /* START FOOTER CONTENT STYLES */
