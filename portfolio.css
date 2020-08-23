@@ -184,6 +184,7 @@ h4 {
 h5 {
    text-align:center;
    text-transform: uppercase;
+   color: black;
 }
 
 figcaption {
@@ -191,6 +192,7 @@ figcaption {
     padding-bottom: 1.7em;
     text-align: center;
     line-height: 1.5;
+   color: black;
 }
 
 /* END MAIN CONTENT STYLES */
